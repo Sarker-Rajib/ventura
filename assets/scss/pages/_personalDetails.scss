@@ -1,0 +1,29 @@
+@import url(../abstracts/_mixins.scss);
+
+.personal-details{
+   label{
+      @include font-style(14px, 700, #3d3d41);
+   }
+
+   .client-identity{
+      background: #f4f4fc;
+      padding: 18px 0 18px 15px;
+      margin-bottom: 7px;
+   }
+
+   .accordion-item{
+      background: #f7f7f7;
+      padding: 18px 30px 18px 15px;
+      margin-bottom: 7px;
+      border: none !important;
+
+      img{
+         height: 25px;
+         cursor: pointer;
+      }
+
+      p{
+         @include font-style(14px, 400, #3d3d41);
+      }
+   }
+}

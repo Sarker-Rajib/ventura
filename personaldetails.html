@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>personaldetails</title>
+  <link rel='shortcut icon' href='assets/images/logo.png' type='image/x-icon'>
+  <link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="personal-details">
+
+  <!-- === header section start === -->
+  <header class="header">
+    <nav class="navbar navbar-expand-xl navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/logo.png" alt="logo" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse position-relative" id="navbarSupportedContent">
+          <h4 class="user-name">Welcome : <strong>Mr Ranjit Sundar Shetty</strong></h4>
+          <ul class="navbar-nav pt-5 ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Customer Delight</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="header-bottom text-xl-end text-center">
+      <div class="container">
+        <a href="#" class="btn btn-sm btn-tilt">Services Menu</a>
+        <a href="#" class="btn btn-sm btn-tilt">Logout</a>
+      </div>
+    </div>
+  </header>
+  <!-- ===//end of header section === -->
+ 
+
+  <div class="container">
+    <div class="row gy-4 pt-4">
+      <!-- === side-nav section start === -->
+      <div class="col-lg-3 side-nav">
+        <h3 class="side-nav--heading">Client Profile <i class="fas fa-minus-circle"></i></h3>
+        <ul class="ps-0">
+          <li><a href="personaldetails.html"  class="active">Personal Details</a></li>
+          <li><a href="nomineeform.html">Nominee</a></li>
+          <li><a href="managesegment.html">Manage Segment</a></li>
+        </ul>
+      </div>
+      <!-- ===//end of side-nav section === -->
+      
+      <!-- === main-content section start === -->
+      <div class="col-lg-9 main-content mb-5">
+        
+          <h3 class="main-content--heading pb-2">Personal Details</h3>
+         
+
+          <div class="vstack col-xl-10">
+            <hr>
+            <!-- client name n id starts-->
+            <div class="client-identity">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="row">
+                    <div class="col-6">
+                      <label>Client ID:</label>
+                    </div>
+                    <div class="col">
+                      <p>2XCY2345</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="row">
+                    <div class="col-2">
+                      <label>Name:</label>
+                    </div>
+                    <div class="col-10">
+                      <p>Ranjeet Sundar Shetty</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- client name n id ended-->
+
+            <div class="accordion accordion-flush" id="segments">
+
+              <!-- Address collapse starts -->
+              <div class="accordion-item">
+                <div class="accordion-header" id="flush-headingOne">
+                  <div class="row">
+                    <div class="col-2">
+                      <label>Address :</label>
+                    </div>
+                    <div class="col-8">
+                      <p>I-Think Techno Campus, “B” Wing, 8th Floor, Pokhran Road No. 2, Off Eastern Express Highway, Thane (West), Pincode : 400083, Maharashtra, India</p>
+                    </div>
+                    <div class="col-2 text-end">
+                        <img src="assets/images/icon.png" class="collapsed" data-bs-toggle="collapse" data-bs-target="#addressCollapse" aria-expanded="false" aria-controls="addressCollapse" alt="edit-image">
+                    </div>
+                  </div>  
+                </div>
+
+                <div id="addressCollapse" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#segments">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                </div>
+              </div>
+              <!-- Address collapse ends -->
+
+              <!-- email collapse starts -->
+              <div class="accordion-item">
+                <div class="accordion-header" id="flush-headingTwo">
+                  <div class="row">
+                    <div class="col-2">
+                      <label>Email ID :</label>
+                    </div>
+                    <div class="col-8">
+                      <p>
+                        ranjeet.shetty@gmail.com
+                      </p>
+                    </div>
+                    <div class="col-2 text-end">
+                      <img src="assets/images/icon.png" class="collapsed" data-bs-toggle="collapse" data-bs-target="#emailCollapse" aria-expanded="false" aria-controls="emailCollapse" alt="edit-image">
+                    </div>
+                  </div>  
+                </div>
+                <div id="emailCollapse" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#segments">
+                  <div class="accordion-body">
+                    <p>loremd s;lfdhsdf skfdugsasds</p>
+                  </div>
+                </div>
+              </div>
+              <!-- email collapse ends -->
+
+              <!-- mobile collapse starts -->
+              <div class="accordion-item">
+                <div class="accordion-header" id="flush-headingThree">
+                  <div class="row">
+                    <div class="col-2">
+                      <label>Mobile No :</label>
+                    </div>
+                    <div class="col-8">
+                      <p>
+                        9823178903
+                      </p>
+                    </div>
+                    <div class="col-2 text-end">
+                      <img src="assets/images/icon.png" class="collapsed" data-bs-toggle="collapse" data-bs-target="#mobileCollapse" aria-expanded="false" aria-controls="mobileCollapse"  alt="edit-image">
+                    </div>
+                  </div>  
+                </div>
+                <div id="mobileCollapse" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#segments">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                </div>
+              </div>
+              <!-- mobile collapse ends -->
+            
+              <!-- occupation-n-income collapse starts -->
+              <div class="accordion-item">
+                <div class="accordion-header" id="flush-headingFour">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="row">
+                        <div class="col-6">
+                          <label>Occupation :</label>
+                        </div>
+                        <div class="col-6 d-flex">
+                          <p>
+                            Employed
+                          </p>
+                          <img src="assets/images/icon.png" class="ps-3 collapsed" data-bs-toggle="collapse" data-bs-target="#occupationCollapse" aria-expanded="false" aria-controls="occupationCollapse"  alt="edit-image">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                      <div class="row">
+                        <div class="col-6">
+                          <label>Income Range :</label>
+                        </div>
+                        <div class="col-6 d-flex">
+                          <p>
+                            10-15 lakhs
+                          </p>
+                          <img src="assets/images/icon.png" class="ps-2 collapsed" data-bs-toggle="collapse" data-bs-target="#incomeCollapse" aria-expanded="false" aria-controls="incomeCollapse"  alt="edit-image">
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
+                </div>
+
+                <div id="occupationCollapse" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#segments">
+                  <div class="accordion-body">
+                    <p>........iocccciicg elit. Harum minus culpa illo a sunt aut.</p>
+                  </div>
+                </div>
+                <div id="incomeCollapse" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#segments">
+                  <div class="accordion-body">
+                    <p>||||||| ipsumubxiuincon,e t consectetur adipisicing elit. Harum minus culpa illo a sunt aut.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- occupation-n-income collapse ends -->
+
+              <!-- dob0gst collapse starts -->
+              <div class="accordion-item">
+                <div class="accordion-header" id="flush-headingFive">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="row">
+                        <div class="col-6">
+                          <label>Date of Birth :</label>
+                        </div>
+                        <div class="col-6 d-flex">
+                          <p>
+                            6 mar 1993
+                          </p>
+                          <img src="assets/images/icon.png" class=" ps-2 collapsed" data-bs-toggle="collapse" data-bs-target="#birthCollapse" aria-expanded="false" aria-controls="birthCollapse"  alt="edit-image">
+                        </div>     
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="d-flex">
+                        <label>Pan No :</label>
+                        <p class="ps-4">AFPKJ2976K</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="row">
+                        <div class="d-flex justify-content-between">
+                          <label>GST IN :</label>
+                          <p>22AFPKJ2976K1Z5</p>
+                          <img src="assets/images/icon.png" class="collapsed" data-bs-toggle="collapse" data-bs-target="#gstCollapse" aria-expanded="false" aria-controls="gstCollapse"  alt="edit-image">
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
+                </div>
+
+                <div id="birthCollapse" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#segments">
+                  <div class="accordion-body">
+                    <p>........iocccciicg elit. Harum minus culpa illo a sunt aut.</p>
+                  </div>
+                </div>
+                <div id="gstCollapse" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#segments">
+                  <div class="accordion-body">
+                    <p>||||||| ipsumubxiuincon,e t consectetur adipisicing elit. Harum minus culpa illo a sunt aut.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- dob0gst collapse ends -->
+
+              <!-- dp collapse starts -->
+              <div class="accordion-item">
+                <div class="accordionBody">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="row">
+                        <div class="col-4">
+                          <label>DP Name :</label>
+                        </div>
+                        <div class="col-7">
+                          <p>Ventura Securities Ltd</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="row">
+                        <div class="col-6">
+                          <label>DP ID :</label>
+                        </div>
+                        <div class="col-6">
+                          <p>IN 303116</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="row">
+                        <div class="col-6">
+                          <label>Client Id :</label>
+                        </div>
+                        <div class="col-6">
+                          <p>IN 303116</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- dp collapse ends -->
+            </div>
+
+            <!-- bottom links -->
+            <div class="dp-details">
+              <a href="#">View</a> <span>DP Details</span>
+            </div>
+            <div class="dp-details">
+              <a href="#">View</a> <span>Your KYC Details</span>
+            </div>
+            <!-- bottom links ends-->
+
+          </div>
+        </div>
+        <!-- ===//end of main-content section === -->
+      </div>
+    </div>
+
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+</html>
