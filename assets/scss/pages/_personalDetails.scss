@@ -12,18 +12,42 @@
    }
 
    .accordion-item{
-      background: #f7f7f7;
-      padding: 18px 30px 18px 15px;
-      margin-bottom: 7px;
+      margin-bottom: 2px;
       border: none !important;
+      
+      .accordion-header{
+         background: #f7f7f7;
+         padding: 18px 30px 18px 15px;
 
-      img{
-         height: 25px;
-         cursor: pointer;
+         img{
+            height: 25px;
+            cursor: pointer;
+         }
+
+         p{
+            @include font-style(14px, 400, #3d3d41);
+         }
       }
 
-      p{
-         @include font-style(14px, 400, #3d3d41);
+      .accordion-body{
+         border: 2px solid #f7f7f7;
+         padding: 18px 30px 18px 15px !important;
+      }
+   }
+
+   .links{
+      padding-top: 10px;
+      .details-link{
+         a{
+            text-decoration: underline;
+            margin-right: 5px;
+            @include font-style(15px, 400, $color-orange);
+         }
+   
+         span{
+            @include font-style(15px, 400, $color-text-dark);
+   
+         }
       }
    }
 }
