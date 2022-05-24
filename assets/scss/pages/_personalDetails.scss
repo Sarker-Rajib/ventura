@@ -6,9 +6,8 @@
       white-space: nowrap;
    }
 
-   .label, option{
+   .label, option, input, select{
       @include font-style(14px, 500, #3d3d41);
-      white-space: nowrap;
    }
 
    .client-identity{
