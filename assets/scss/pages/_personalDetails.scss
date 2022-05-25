@@ -26,15 +26,33 @@
 
          @media screen and (min-width: 768px) {
             .section-start{
-               width: 42%;
+               width: 40%;
             }
    
             .section-middle{
-               width: 23%;
+               width: 25%;
+               padding-left: 15px;
             }
    
             .end-part{
                width: 35%;
+            }
+               
+         }
+
+         @media screen and (min-width: 1400px) {
+            .section-start{
+               width: 40%;
+            }
+   
+            .section-middle{
+               width: 29%;
+               padding-left: 25px;
+
+            }
+   
+            .end-part{
+               width: 31%;
             }
                
          }
