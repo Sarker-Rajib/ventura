@@ -1,2 +1,2 @@
 # ventura
-##### https://sarker-rajib.github.io/ventura/index.html
+##### https://sarker-rajib.github.io/ventura/bankdetails.html
